@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <button onclick="toggleDiv()">Toggle Div</button>
+    <div id="myDiv" style="display: block">This is the content of the div.</div>
+
+    <script>
+      function toggleDiv() {
+        const div = document.getElementById("myDiv");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>

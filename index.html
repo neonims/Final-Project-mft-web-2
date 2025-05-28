@@ -1,0 +1,2234 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="bg-[#F3F3F3]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/swiper.css" />
+    <link rel="stylesheet" href="./src/css/datacalender.css" />
+  </head>
+  <body class="bg-[#F3F3F3]">
+    <!-- start project-->
+    <div class="wrapper flex flex-col w-full bg-[#F3F3F3]">
+      <!--#region header-->
+
+      <div
+        class="mobile:relative mobile:header-mobile mobile:w-full mobile:h-[200px] mobile:bg-[url(../images/header/pagescreen.jpg)] mobile:bg-center mobile:bg-no-repeat mobile:bg-cover mobile:z-50 desktop:header-desktop desktop:w-full desktop:h-[400px] desktop:bg-[url(../images/header/pagescreen.jpg)] desktop:bg-center desktop:bg-no-repeat desktop:bg-cover desktop:relative desktop:mb-[60px]"
+      >
+        <div
+          class="mobile:absolute mobile:right-0 mobile:left-0 mobile:top-0 mobile:bg-[#2b2b2b]/60 mobile:w-full mobile:h-full desktop:absolute desktop:left-0 desktop:top-0 desktop:bg-[#2b2b2b]/60 desktop:w-full desktop:h-full"
+        >
+          <!--#region menu-->
+          <div
+            class="mobile:w-full mobile:h-[50px] mobile:bg-white mobile:mx-auto mobile:rounded-b-[0px] mobile:flex mobile:items-center mobile:justify-evenly desktop:w-[80%] desktop:h-[100px] desktop:bg-white desktop:mx-auto desktop:rounded-b-[16px] desktop:flex desktop:items-center desktop:justify-between desktop:px-[32px]"
+          >
+            <!--#region MenuDesktop-->
+            <div
+              class="menu-desktop mobile:hidden desktop:flex desktop:justify-between desktop:w-full desktop:items-center"
+            >
+              <div class="menu-right">
+                <img src="./src/images/header/Logo.png" alt="" />
+              </div>
+              <div class="menu-center w-[600px] h-[35px]">
+                <nav
+                  class="w-[inherit] h-[inherit] flex justify-between gap-x-[40px]"
+                >
+                  <div>
+                    <a class="font-nazanin text-[20px] text-[#353535]" href="#"
+                      >رزرو خودرو</a
+                    >
+                  </div>
+                  <div>
+                    <a class="font-nazanin text-[20px] text-[#353535]" href="#"
+                      >خدمات ما</a
+                    >
+                  </div>
+                  <div>
+                    <a class="font-nazanin text-[20px] text-[#353535]" href="#"
+                      >بلاگ</a
+                    >
+                  </div>
+                  <div>
+                    <a class="font-nazanin text-[20px] text-[#353535]" href="#"
+                      >درباره ما</a
+                    >
+                  </div>
+                  <div>
+                    <a class="font-nazanin text-[20px] text-[#353535]" href="#"
+                      >تماس با ما</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#"
+                      ><img
+                        class="mt-[5px]"
+                        src="./src/images/header/search.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </nav>
+              </div>
+              <div class="menu-left">
+                <a
+                  href="#"
+                  class="font-nazanin rounded-[8px] gap-x-[8px] text-white text-[18px] w-[122px] h-[40px] bg-[#194BF0] flex justify-center items-center"
+                >
+                  ورود / ثبت نام
+                </a>
+              </div>
+            </div>
+            <!--#endregion MenuDesktop-->
+
+            <!--#region MenuMobile-->
+            <div
+              class="mobile:w-full mobile:h-full mobile:swiper-mobile mobile:bg-[#FFFFFF] desktop:hidden"
+            >
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./src/images/header/Logo.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="font-nazanin text-[15px] text-700 text-[#353535] align-middle"
+                      href="#"
+                      >رزرو خودرو</a
+                    >
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="font-nazanin text-[15px] text-700 text-[#353535]"
+                      href="#"
+                      >خدمات ما
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="font-nazanin text-[15px] text-700 text-[#353535]"
+                      href="#"
+                    >
+                      بلاگ</a
+                    >
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="font-nazanin text-[15px] text-700 text-[#353535]"
+                      href="#"
+                      >درباره ما
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      class="font-nazanin text-[15px] text-700 text-[#353535]"
+                      href="#"
+                      >تماس با ما
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./src/images/header/search.png" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <a
+                      href="#"
+                      class="font-nazanin w-full h-full text-white text-[12px] text-500 bg-[#194BF0] flex justify-center items-center"
+                    >
+                      ورود / ثبت نام
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--#endregion MenuMobile-->
+          </div>
+          <!--#endregion menu-->
+        </div>
+      </div>
+
+      <!--#endregion header-->
+      <!--#region main-->
+      <div class="main w-full h-fit">
+        <div
+          class="mobile:main-center mobile:w-[100%] mobile:mx-auto mobile:flex mobile:flex-col desktop:main-center desktop:w-[80%] desktop:h-fit desktop:mx-auto desktop:flex desktop:flex-row"
+        >
+          <!--#region Main-Desktop-->
+          <!--#region sidebar -->
+          <div
+            class="mobile:hidden desktop:block desktop:sidebar desktop:w-[30%] desktop:h-fit desktop:bg-[#ffffff] desktop:border-2 desktop:border-gray-100 desktop:rounded-xl desktop:px-1 desktop:py-1 desktop:mt-2"
+          >
+            <div class="collapse collapse-arrow bg-[#ffffff] items-center">
+              <input
+                type="radio"
+                name="my-accordion-2"
+                checked="checked"
+                class="pb-2"
+              />
+              <div
+                class="collapse-title font-nazanin text-[#606060] font-bold text-[12px] items-center align-middle"
+              >
+                قیمت اجاره خودرو
+              </div>
+              <div class="collapse-content">
+                <div class="flex justify-between gap-x-12">
+                  <span
+                    class="font-nazanin font-[900px] text-[14px] text-[#000000]"
+                    >از 60,000,000 تومان</span
+                  >
+                  <p
+                    class="font-nazanin font-[900px] text-[14px] text-[#000000]"
+                  >
+                    تا 6,000,000 تومان
+                  </p>
+                </div>
+                <div class="flex items-center justify-center py-[13px] w-[95%]">
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="40"
+                    class="range range-info range-xs"
+                  />
+                </div>
+                <div class="w-[80%] mx-auto border-1 border-b-gray-500"></div>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-[#ffffff] border-none">
+              <input type="radio" name="my-accordion-2" />
+              <div
+                class="collapse-title font-nazanin text-[#606060] font-bold text-[12px] items-center align-middle"
+              >
+                برند خودرو
+              </div>
+              <div class="collapse-content">
+                <div class="flex flex-col gap-2">
+                  <div class="gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      checked
+                      class="checkbox checkbox-info"
+                      id="benz"
+                    />
+                    <label
+                      for="benz"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                      >اجاره بنز</label
+                    >
+                  </div>
+                  <div class="gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      class="checkbox checkbox-info"
+                      id="bmw"
+                    />
+                    <label
+                      for="bmw"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900"
+                      >اجاره بی ام و
+                    </label>
+                  </div>
+                  <div class="flex gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      class="checkbox checkbox-info"
+                      id="pegouat"
+                    />
+                    <label
+                      for="pegouat"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره پژو</label
+                    >
+                  </div>
+                  <div class="gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      class="checkbox checkbox-info"
+                      id="porsche"
+                    />
+                    <label
+                      for="porsche"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره پورشه</label
+                    >
+                  </div>
+                  <div class="gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      class="checkbox checkbox-info"
+                      id="kia"
+                    />
+                    <label
+                      for="kia"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره کیا</label
+                    >
+                  </div>
+                  <div class="gap-2 my-justify pr-2">
+                    <input
+                      type="checkbox"
+                      class="checkbox checkbox-info"
+                      id="heyunda"
+                    />
+                    <label
+                      for="heyunda"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                      >اجاره هیوندای
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-[#ffffff] border-none">
+              <input type="radio" name="my-accordion-2" />
+              <div
+                class="collapse-title font-nazanin text-[#606060] font-bold text-[12px] items-center align-middle"
+              >
+                اجاره خودرو براساس نیاز شما
+              </div>
+              <div class="collapse-content">
+                <div class="flex flex-col gap-5">
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="driver"
+                      checked
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="driver"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره خودرو با راننده</label
+                    >
+                  </div>
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="no-driver"
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="no-driver"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره خودرو بدون راننده
+                    </label>
+                  </div>
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="irani"
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="irani"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره خودرو ایرانی
+                    </label>
+                  </div>
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="lux"
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="lux"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره خودرو لوکس</label
+                    >
+                  </div>
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="event"
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="event"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره خودرو تشریفات
+                    </label>
+                  </div>
+                  <div class="flex flex-row gap-x-1.5">
+                    <input
+                      id="wedding"
+                      type="radio"
+                      name="radio-12"
+                      class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+                    />
+                    <label
+                      for="wedding"
+                      class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                    >
+                      اجاره ماشین عروس
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--#endregion sidebar-->
+
+          <!--#region cars-->
+          <div
+            class="mobile:hidden desktop:block cars p-[10px] box-border w-[70%] h-fit"
+          >
+            <div
+              class="selects flex gap-x-[20px] w-full justify-between mb-[20px]"
+            >
+              <div class="main-center-right w-[67%]">
+                <select
+                  class="select w-full border border-[#9A9A9A] bg-transparent text-[#868686] text-[16px] font-nazanin"
+                >
+                  <option disabled selected>تقویم قیمتی</option>
+                  <option>رنو</option>
+                  <option>بنز</option>
+                  <option>ولوو</option>
+                </select>
+              </div>
+              <div class="main-center-left w-[32%]">
+                <select
+                  class="select w-full border border-[#9A9A9A] bg-transparent text-[#868686] text-[16px] font-nazanin"
+                >
+                  <option disabled selected>مرتب سازی</option>
+                  <option>رنو</option>
+                  <option>بنز</option>
+                  <option>ولوو</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-full flex justify-between gap-[24px]">
+              <div
+                class="w-1/3 h-[510px] bg-white rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-1.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-1/3 h-[510px] bg-white rounded-[16px] pt-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-2.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-1/3 h-[510px] bg-white rounded-[16px] pt-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-3.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex justify-between gap-[24px]">
+              <div
+                class="w-1/3 bg-white rounded-[16px] py-[16px] px-[16px] mt-[24px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-4.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-1/3 h-[510px] bg-white rounded-[16px] pt-[16px] px-[16px] mt-[24px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-5.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-1/3 h-[510px] bg-white rounded-[16px] pt-[16px] px-[16px] mt-[24px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-6.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--#endregion cars-->
+          <!--#endregion Main-Desktop-->
+
+          <!--#region Main-Mobile -->
+          <div
+            class="mobile:w-full mobile:h-full mobile:bg-[#ffffff] mobile:flex mobile:flex-col mobile:overflow-auto mobile:relative desktop:hidden"
+          >
+            <!-- #region Main-Mobile-Menu -->
+            <div class="swiper swiper-mobile-menu mySwiper-2 w-full h-[80px]">
+              <div class="swiper-wrapper gap-2 w-full h-full">
+                <div
+                  class="swiper-slide w-[20%] rounded-xl border-2 border-gray-400"
+                >
+                  <button
+                    onclick="toggleDiv()"
+                    class="w-full h-full font-nazanin font-[600px] text-[12px] text-[#353535] my-auto mt-[3px] mr-[2px] mb-[2px]"
+                  >
+                    قیمت اجاره خودرو
+                  </button>
+                </div>
+                <div
+                  class="swiper-slide w-[20%] rounded-xl border-2 border-gray-400"
+                >
+                  <button
+                    onclick="toggleDiv1()"
+                    class="w-full h-full font-nazanin font-[600px] text-[12px] text-[#353535] my-auto mt-[3px] mr-[2px] mb-[2px]"
+                  >
+                    برند خودرو
+                  </button>
+                </div>
+                <div
+                  class="swiper-slide w-[20%] rounded-xl border-2 border-gray-400"
+                >
+                  <button
+                    onclick="toggleDiv2()"
+                    class="w-full h-full font-nazanin font-[600px] text-[12px] text-[#353535] my-auto mt-[3px] mr-[2px] mb-[2px]"
+                  >
+                    نوع اجاره خودرو
+                  </button>
+                </div>
+                <div
+                  class="swiper-slide w-[20%] rounded-xl border-2 border-gray-400"
+                >
+                  <button
+                    onclick="toggleDiv3()"
+                    class="w-full h-full font-nazanin font-[600px] text-[12px] text-[#353535] my-auto mt-[3px] mr-[2px] mb-[2px]"
+                  >
+                    تقویم قیمتی
+                  </button>
+                </div>
+                <div
+                  class="swiper-slide w-[20%] rounded-xl border-2 border-gray-400"
+                >
+                  <button
+                    onclick="toggleDiv4()"
+                    class="w-full h-full font-nazanin font-[600px] text-[12px] text-[#353535] my-auto mt-[3px] mr-[2px] mb-[2px]"
+                  >
+                    مرتب سازی
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- #endregion Main-Mobile-Menu -->
+            <!-- #region Main-Mobile-Cars -->
+            <div class="w-full flex flex-col justify-between gap-[10px] mb-3">
+              <div
+                class="w-full h-[620px] bg-white border-b-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-1.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-full h-[620px] bg-white border-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-2.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-full h-[620px] bg-white border-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-3.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex flex-col justify-between gap-[10px] mb-2">
+              <div
+                class="w-full h-[620px] bg-white border-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-4.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-full h-[620px] bg-white border-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-5.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+              <div
+                class="w-full h-[620px] bg-white border-2 rounded-[16px] py-[16px] px-[16px]"
+              >
+                <div class="my-card w-full">
+                  <img
+                    src="./src/images/main/auto-6.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <div class="w-full">
+                    <h3
+                      class="font-nazanin font-bold text-[#494949] text-[16px] my-[10px]"
+                    >
+                      اجاره بنز E350 سدان
+                    </h3>
+                    <span class="font-nazanin text-[14px] text-[#868686]"
+                      >مدل : 2016
+                    </span>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px] mb-[10px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >روزانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full bg-[#F3F3F3] p-[10px] box-border rounded-[8px]"
+                  >
+                    <div class="flex justify-between align-middle">
+                      <div class="flex gap-x-[10px] align-middle">
+                        <span
+                          class="font-nazanin align-text-bottom text-[12px] text-[#212121]"
+                          >از ۱ تا 30 روز:</span
+                        >
+                        <h3
+                          class="font-nazanin text-[16px] align-text-bottom text-[#194BF0] font-bold"
+                        >
+                          8,500,000
+                        </h3>
+                      </div>
+                      <div class="align-middle">
+                        <span
+                          class="align-text-bottom font-nazanin text-[12px] text-[#212121]"
+                          >ماهانه</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-between mt-[20px] mb-[8px]">
+                  <span class="font-nazanin text-[12px] text-[#010616]"
+                    >مبلغ ضمانت:</span
+                  >
+                  <span
+                    class="font-nazanin text-[12px] text-[#212121] font-bold"
+                    >80 میلیون تومان</span
+                  >
+                </div>
+                <div class="w-full">
+                  <a
+                    href="#"
+                    class="block btn btn-primary btn-sm align-middle pt-[4.5px] pb-[7.5px] font-nazanin text-[14px] text-[#FFFFFF]"
+                    >درخواست رزرو</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- #endregion Main-Mobile-Cars -->
+          </div>
+          <!--#endregion Main-Mobile -->
+        </div>
+      </div>
+      <!--#endregion main-->
+
+      <!--#region footer-->
+
+      <!--#region footer-mobile -->
+      <footer
+        class="mobile:flex mobile:flex-col mobile:w-full mobile:h-fit mobile:bg-[#343434] desktop:hidden"
+      >
+        <div class="collapse collapse-arrow bg-[#343434] align-middle">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            ارتباط با ما
+          </div>
+          <div class="collapse-content text-sm flex flex-col gap-2.5">
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-1.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                0912-21326545
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-2.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                autorent@info.com
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-3.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                تهران- خ شادمان
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-[#343434]">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            درباره ما
+          </div>
+          <div class="collapse-content text-sm flex flex-col gap-2.5">
+            <div class="justify-start">
+              <img src="./src/images/footer/icon-4.png" alt="" />
+            </div>
+            <div class="w-[100%] h-[60%]">
+              <p
+                class="font-nazanin line-clamp-4 text-[14px] font-[300] text-[#FFFFFF]"
+              >
+                اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین
+                ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا
+                تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-[#343434]">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            سوالات متداول؟
+          </div>
+          <div
+            class="collapse-content text-sm flex items-center justify-center"
+          >
+            <div
+              class="join flex justify-between gap-[1px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
+            >
+              <div class="w-[80%]">
+                <label class="input border-0 validator join-item bg-[#343434]">
+                  <input
+                    class="font-nazanin text-[14px] font-[600] text-[#eee3e3] bg-[#343434]"
+                    type="email"
+                    placeholder="ایمیل خود را وارد کنید"
+                    required
+                  />
+                </label>
+                <div class="validator-hint hidden">
+                  Enter valid email address
+                </div>
+              </div>
+              <button
+                class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
+              >
+                ارسال
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--#endregion footer-mobile -->
+
+      <!--#region footer-desktop -->
+      <footer class="mobile:hidden desktop:flex desktop:w-full desktop:h-fit">
+        <div
+          class="footer-center flex flex-col gap-[16px] w-[80%] h-[90%] mx-auto bg-[#343434] top rounded-[10px] pt-[56px] pr-[24px] pb-[56px] pl-[24px]"
+        >
+          <div
+            class="footer-info flex align-middle justify-between mx-auto w-[90%] h-[35%] gap-[160px] pt-[16px] pb-[16px] pr-[20px] pl-[16px] border-gray-600 rounded-[16px] border-[1px]"
+          >
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-1.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                  >ارتباط با ما</span
+                >
+                <p class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB]">
+                  0912-21326545
+                </p>
+              </div>
+            </div>
+            <div
+              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
+            ></div>
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-2.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                  >ایمیل
+                </span>
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
+                  >autorent@info.com</span
+                >
+              </div>
+            </div>
+            <div
+              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
+            ></div>
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-3.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                >
+                  آدرس</span
+                >
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
+                  >تهران- خ شادمان</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-about mx-auto flex flex-col gap-[30px]">
+            <div
+              class="about mx-auto flex justify-between align-middle w-[90%] h-[72%] px-[50px] gap-[30px]"
+            >
+              <div class="flex flex-col w-[50%] gap-[24px] pr-[30px]">
+                <div class="justify-start">
+                  <img src="./src/images/footer/icon-4.png" alt="" />
+                </div>
+                <div class="w-[50%] h-[60%]">
+                  <p
+                    class="font-nazanin line-clamp-3 text-[14px] font-[300] text-[#FFFFFF]"
+                  >
+                    اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن
+                    بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر،
+                    اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به
+                    مشتریان است.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col w-[15%] gap-[10px] mr-[40px] ml-[80px]">
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                  >دسترسی آسان</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  سوالات متداول</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  تماس با ما</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  درباره ما</a
+                >
+              </div>
+              <div
+                class="flex flex-col w-[35%] gap-[12px] align-middle my-auto"
+              >
+                <p class="font-nazanin text-[16px] font-[600] text-[#FFFFFF]">
+                  خبرنامه
+                </p>
+                <div
+                  class="join flex justify-between gap-[5px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
+                >
+                  <div class="w-[80%]">
+                    <label
+                      class="input border-0 validator join-item bg-[#343434]"
+                    >
+                      <input
+                        class="font-nazanin text-[14px] font-[600] text-[#676767] bg-[#343434]"
+                        type="email"
+                        placeholder="ایمیل خود را وارد کنید"
+                        required
+                      />
+                    </label>
+                    <div class="validator-hint hidden">
+                      Enter valid email address
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
+                  >
+                    ارسال
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="line flex justify-center w-[90%] mx-auto gap-1 border-t-2 border-[#575757] pt-[30px] pb-[0px] px-[350px] font-nazanin text-[14px] font-[500] text-[#9A9A9A]"
+            >
+              <img src="./src/images/footer/icon-5.png" alt="" />
+              <p class="">تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--#endregion footer-desktop -->
+
+      <!--#endregion footer-->
+
+      <!--#region Mobile-Menu-Swiper -->
+      <!-- price -->
+      <div
+        id="myDiv"
+        class="mobile:hidden mobile:flex-col mobile:justify-center mobile:items-center mobile:w-full mobile:h-[100px] mobile:fixed mobile:bottom-0 mobile:z-200 mobile:bg-white mx-auto desktop:hidden"
+      >
+        <div class="flex gap-x-10">
+          <span class="font-nazanin font-[600px] text-[12px] text-[#727272]"
+            >از 60,000,000 تومان</span
+          >
+          <span class="font-nazanin font-[600px] text-[12px] text-[#727272]"
+            >تا 6,000,000 تومان</span
+          >
+        </div>
+        <div class="flex items-center justify-center py-[10px] w-[50%]">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="40"
+            class="range range-info range-xs"
+          />
+        </div>
+      </div>
+
+      <!-- brand -->
+      <div
+        id="myDiv1"
+        class="mobile:hidden mobile:flex-col mobile:justify-center mobile:items-center mobile:w-full mobile:h-[200px] mobile:fixed mobile:bottom-0 mobile:z-200 mobile:bg-white mx-auto desktop:hidden"
+      >
+        <!-- Swiper -->
+        <div class="swiper mySwiper-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                type="checkbox"
+                checked
+                class="checkbox checkbox-info"
+                id="benz"
+              />
+              <label
+                for="benz"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                >اجاره بنز</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input type="checkbox" class="checkbox checkbox-info" id="bmw" />
+              <label
+                for="bmw"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900"
+                >اجاره بی ام و
+              </label>
+            </div>
+            <div class="swiper-slide flex gap-2 my-justify pr-2">
+              <input
+                type="checkbox"
+                class="checkbox checkbox-info"
+                id="pegouat"
+              />
+              <label
+                for="pegouat"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره پژو</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                type="checkbox"
+                class="checkbox checkbox-info"
+                id="porsche"
+              />
+              <label
+                for="porsche"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره پورشه</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input type="checkbox" class="checkbox checkbox-info" id="kia" />
+              <label
+                for="kia"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره کیا</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                type="checkbox"
+                class="checkbox checkbox-info"
+                id="heyunda"
+              />
+              <label
+                for="heyunda"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                >اجاره هیوندای
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- type -->
+      <div
+        id="myDiv2"
+        class="mobile:hidden mobile:flex-col mobile:justify-center mobile:items-center mobile:w-full mobile:h-[200px] mobile:fixed mobile:bottom-0 mobile:z-200 mobile:bg-white mx-auto desktop:hidden"
+      >
+        <!-- Swiper -->
+        <div class="swiper mySwiper-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="driver"
+                checked
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="driver"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره خودرو با راننده</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="no-driver"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="no-driver"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900"
+              >
+                اجاره خودرو بدون راننده
+              </label>
+            </div>
+            <div class="swiper-slide flex gap-2 my-justify pr-2">
+              <input
+                id="irani"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="irani"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره خودرو ایرانی
+              </label>
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="lux"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="lux"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره خودرو لوکس</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="event"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="event"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                اجاره خودرو تشریفات</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="wedding"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="wedding"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+                >اجاره ماشین عروس
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- datacalender -->
+      <div
+        id="myDiv3"
+        class="mobile:hidden mobile:flex-col mobile:justify-center mobile:items-center mobile:w-full mobile:h-[450px] mobile:fixed mobile:bottom-0 mobile:left-0 mobile:z-200 mobile:bg-[#BFDDFD] mobile:mx-auto mobile:overflow-auto desktop:hidden"
+      >
+        <table class="calendar">
+          <thead>
+            <tr>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                یک شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                دو شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                سه شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                چهار شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                پنج شنبه
+              </th>
+              <th class="font-nazanin text-[#2b2b2b] text-[12px] font-[400px]">
+                جمعه
+              </th>
+            </tr>
+          </thead>
+          <tbody id="calendar-body">
+            <!-- Calendar days will be inserted here -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- order by model -->
+      <div
+        id="myDiv4"
+        class="mobile:hidden mobile:flex-col mobile:justify-center mobile:items-center mobile:w-full mobile:h-[200px] mobile:fixed mobile:bottom-0 mobile:z-200 mobile:bg-white mx-auto desktop:hidden"
+      >
+        <!-- Swiper -->
+        <div class="swiper mySwiper-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="benz"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="benz"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                بنز</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="bmw"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="bmw"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900"
+              >
+                بی ام و
+              </label>
+            </div>
+            <div class="swiper-slide flex gap-2 my-justify pr-2">
+              <input
+                id="pegouat"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="pegouat"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                پژو</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="porsche"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="porsche"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                پورشه</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="kia"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="kia"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                کیا</label
+              >
+            </div>
+            <div class="swiper-slide gap-2 my-justify pr-2">
+              <input
+                id="heyunda"
+                type="radio"
+                name="radio-12"
+                class="radio border-gray-600 checked:bg-blue-100 checked:text-blue-600 checked:border-gray-600"
+              />
+              <label
+                for="heyunda"
+                class="font-nazanin text-[14px] font-[500px] text-gray-900 pt-[2px]"
+              >
+                هیوندای
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#endregion Mobile-Menu-Swiper -->
+    </div>
+    <!--end project-->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 0,
+      });
+      var swiper = new Swiper(".mySwiper-2", {
+        slidesPerView: 3,
+        spaceBetween: 0,
+      });
+      var swiper = new Swiper(".mySwiper-3", {
+        direction: "vertical",
+        loop: "true",
+        slidesPerView: 4,
+        spaceBetween: 0,
+      });
+    </script>
+    <!-- Swiper Button -->
+    <script>
+      function toggleDiv() {
+        const div = document.getElementById("myDiv");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "flex" : "none";
+      }
+    </script>
+
+    <script>
+      function toggleDiv1() {
+        const div = document.getElementById("myDiv1");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "flex" : "none";
+      }
+    </script>
+
+    <script>
+      function toggleDiv2() {
+        const div = document.getElementById("myDiv2");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "flex" : "none";
+      }
+    </script>
+
+    <script>
+      function toggleDiv3() {
+        const div = document.getElementById("myDiv3");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "flex" : "none";
+      }
+    </script>
+
+    <script>
+      function toggleDiv4() {
+        const div = document.getElementById("myDiv4");
+        // Toggle between 'none' and 'block'
+        div.style.display = div.style.display === "none" ? "flex" : "none";
+      }
+    </script>
+
+    <script>
+      // Sample price data (you would replace this with real data)
+      const priceData = {
+        1: "$100",
+        5: "$150",
+        10: "$120",
+        15: "$200",
+        20: "$180",
+        25: "$160",
+        30: "$140",
+      };
+
+      function generateCalendar() {
+        // tbody = month
+        // row = Week
+        // cell = day or date
+
+        // we create body of our table and we name it tbody
+        // we add all our row (week) and cell (date) to tbody
+        const tbody = document.getElementById("calendar-body");
+        const today = new Date();
+        const currentDate = today.getDate();
+
+        // Create calendar weeks
+        let date = 1;
+        for (let i = 0; i < 6; i++) {
+          //row is here the week and tr is the row in tbody wich is our table body
+          const row = document.createElement("tr");
+
+          for (let j = 0; j < 7; j++) {
+            // here we create a td , td is our date and we put it in cell ,td is also a member of tr or our week
+            // we append all our changes in cell
+            const cell = document.createElement("td");
+
+            if (date > 31) break; // Adjust for actual days in month
+
+            // Add date
+            // here we create a div and write the number of our date in it
+            const dateSpan = document.createElement("div");
+            dateSpan.className = "date";
+            dateSpan.textContent = date;
+            // append bumber to cell (our date)
+            cell.appendChild(dateSpan);
+
+            // Add price if available
+            if (priceData[date]) {
+              const priceSpan = document.createElement("div");
+              priceSpan.className = "price";
+              priceSpan.textContent = priceData[date];
+              // append price to our cell (our date)
+              cell.appendChild(priceSpan);
+            }
+
+            // Highlight today
+            if (date === currentDate) {
+              cell.classList.add("today");
+            }
+
+            // Highlight weekends
+            if (j === 0 || j === 6) {
+              // Sunday (0) or Saturday (6)
+              cell.classList.add("weekend");
+            }
+            // we append to our row (our week) our cell (our date)
+            row.appendChild(cell);
+            date++;
+          }
+          // we append to our tbody (our month) row our (week)
+          tbody.appendChild(row);
+        }
+      }
+
+      // Generate calendar when page loads
+      generateCalendar();
+    </script>
+
+    <script>
+      // mobile-footer
+      document.querySelectorAll('input[type="radio"]').forEach((radio) => {
+        let wasChecked = false;
+
+        radio.addEventListener("mousedown", () => {
+          wasChecked = radio.checked;
+        });
+
+        radio.addEventListener("click", () => {
+          if (wasChecked) {
+            setTimeout(() => (radio.checked = false), 0);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
