@@ -1491,6 +1491,15 @@
       }
     }
   }
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .sticky {
+    position: sticky;
+  }
   .textarea {
     border: var(--border) solid #0000;
     min-height: calc(0.25rem * 20);
@@ -1669,6 +1678,32 @@
   }
   .box-border {
     box-sizing: border-box;
+  }
+  .status {
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+    width: calc(0.25rem * 2);
+    height: calc(0.25rem * 2);
+    border-radius: var(--radius-selector);
+    background-color: var(--color-base-content);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-base-content) 20%, transparent);
+    }
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    color: color-mix(in srgb, #000 30%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in srgb, #000 30%, transparent);
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, var(--color-black) 30%, transparent);
+      }
+    }
+    background-image: radial-gradient( circle at 35% 30%, oklch(1 0 0 / calc(var(--depth) * 0.5)), #0000 );
+    box-shadow: 0 2px 3px -1px currentColor;
+    @supports (color: color-mix(in lab, red, red)) {
+      box-shadow: 0 2px 3px -1px color-mix(in oklab, currentColor calc(var(--depth) * 100%), #0000);
+    }
   }
   .badge {
     display: inline-flex;
@@ -2122,6 +2157,9 @@
   }
   .gap-y-3 {
     row-gap: calc(var(--spacing) * 3);
+  }
+  .overflow-hidden {
+    overflow: hidden;
   }
   .overflow-scroll {
     overflow: scroll;
@@ -2621,6 +2659,11 @@
       left: calc(var(--spacing) * 0);
     }
   }
+  .mobile\:z-0 {
+    @media (width >= 340px) {
+      z-index: 0;
+    }
+  }
   .mobile\:z-5 {
     @media (width >= 340px) {
       z-index: 5;
@@ -2639,6 +2682,21 @@
   .mobile\:z-200 {
     @media (width >= 340px) {
       z-index: 200;
+    }
+  }
+  .mobile\:z-201 {
+    @media (width >= 340px) {
+      z-index: 201;
+    }
+  }
+  .mobile\:z-210 {
+    @media (width >= 340px) {
+      z-index: 210;
+    }
+  }
+  .mobile\:z-300 {
+    @media (width >= 340px) {
+      z-index: 300;
     }
   }
   .mobile\:z-50000 {
@@ -2749,6 +2807,11 @@
   .mobile\:overflow-clip {
     @media (width >= 340px) {
       overflow: clip;
+    }
+  }
+  .mobile\:overflow-hidden {
+    @media (width >= 340px) {
+      overflow: hidden;
     }
   }
   .mobile\:overflow-scroll {

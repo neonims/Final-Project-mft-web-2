@@ -11,7 +11,7 @@
   </head>
   <body class="bg-[#F3F3F3]">
     <!-- start project-->
-    <div class="wrapper flex flex-col w-full bg-[#F3F3F3]">
+    <div class="wrapper flex flex-col w-full bg-[#F3F3F3] sticky">
       <!--#region header-->
 
       <div
@@ -1487,261 +1487,6 @@
       </div>
       <!--#endregion main-->
 
-      <!--#region footer-->
-
-      <!--#region footer-mobile -->
-      <footer
-        class="mobile:flex mobile:flex-col mobile:w-full mobile:h-fit mobile:bg-[#343434] mobile:fixed mobile:bottom-0 mobile:z-200 desktop:hidden"
-      >
-        <div class="collapse collapse-arrow bg-[#343434] align-middle">
-          <input type="radio" name="my-accordion-2" />
-          <div
-            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
-          >
-            ارتباط با ما
-          </div>
-          <div class="collapse-content text-sm flex flex-col gap-2.5">
-            <div class="flex items-center justify-between px-2px">
-              <img
-                src="./src/images/footer/icon-1.png"
-                class="w-[30px] h-[30px]"
-                alt=""
-              />
-              <p
-                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
-              >
-                0912-21326545
-              </p>
-            </div>
-            <div class="flex items-center justify-between px-2px">
-              <img
-                src="./src/images/footer/icon-2.png"
-                class="w-[30px] h-[30px]"
-                alt=""
-              />
-              <p
-                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
-              >
-                autorent@info.com
-              </p>
-            </div>
-            <div class="flex items-center justify-between px-2px">
-              <img
-                src="./src/images/footer/icon-3.png"
-                class="w-[30px] h-[30px]"
-                alt=""
-              />
-              <p
-                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
-              >
-                تهران- خ شادمان
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow bg-[#343434]">
-          <input type="radio" name="my-accordion-2" />
-          <div
-            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
-          >
-            درباره ما
-          </div>
-          <div class="collapse-content text-sm flex flex-col gap-2.5">
-            <div class="justify-start">
-              <img src="./src/images/footer/icon-4.png" alt="" />
-            </div>
-            <div class="w-[100%] h-[60%]">
-              <p
-                class="font-nazanin line-clamp-4 text-[14px] font-[300] text-[#FFFFFF]"
-              >
-                اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین
-                ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا
-                تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow bg-[#343434]">
-          <input type="radio" name="my-accordion-2" />
-          <div
-            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
-          >
-            سوالات متداول؟
-          </div>
-          <div
-            class="collapse-content text-sm flex items-center justify-center"
-          >
-            <div
-              class="join flex justify-between gap-[1px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
-            >
-              <div class="w-[80%]">
-                <label class="input border-0 validator join-item bg-[#343434]">
-                  <input
-                    class="font-nazanin text-[14px] font-[600] text-[#eee3e3] bg-[#343434]"
-                    type="email"
-                    placeholder="ایمیل خود را وارد کنید"
-                    required
-                  />
-                </label>
-                <div class="validator-hint hidden">
-                  Enter valid email address
-                </div>
-              </div>
-              <button
-                class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
-              >
-                ارسال
-              </button>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!--#endregion footer-mobile -->
-
-      <!--#region footer-desktop -->
-      <footer class="mobile:hidden desktop:flex desktop:w-full desktop:h-fit">
-        <div
-          class="footer-center flex flex-col gap-[16px] w-[80%] h-[90%] mx-auto bg-[#343434] top rounded-[10px] pt-[56px] pr-[24px] pb-[56px] pl-[24px]"
-        >
-          <div
-            class="footer-info flex align-middle justify-between mx-auto w-[90%] h-[35%] gap-[160px] pt-[16px] pb-[16px] pr-[20px] pl-[16px] border-gray-600 rounded-[16px] border-[1px]"
-          >
-            <div class="info-item flex justify-center mx-auto gap-[20px]">
-              <img src="./src/images/footer/icon-1.png" alt="" />
-              <div class="flex flex-col justify-between gap-[15px]">
-                <span
-                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
-                  >ارتباط با ما</span
-                >
-                <p class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB]">
-                  0912-21326545
-                </p>
-              </div>
-            </div>
-            <div
-              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
-            ></div>
-            <div class="info-item flex justify-center mx-auto gap-[20px]">
-              <img src="./src/images/footer/icon-2.png" alt="" />
-              <div class="flex flex-col justify-between gap-[15px]">
-                <span
-                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
-                  >ایمیل
-                </span>
-                <span
-                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
-                  >autorent@info.com</span
-                >
-              </div>
-            </div>
-            <div
-              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
-            ></div>
-            <div class="info-item flex justify-center mx-auto gap-[20px]">
-              <img src="./src/images/footer/icon-3.png" alt="" />
-              <div class="flex flex-col justify-between gap-[15px]">
-                <span
-                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
-                >
-                  آدرس</span
-                >
-                <span
-                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
-                  >تهران- خ شادمان</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="footer-about mx-auto flex flex-col gap-[30px]">
-            <div
-              class="about mx-auto flex justify-between align-middle w-[90%] h-[72%] px-[50px] gap-[30px]"
-            >
-              <div class="flex flex-col w-[50%] gap-[24px] pr-[30px]">
-                <div class="justify-start">
-                  <img src="./src/images/footer/icon-4.png" alt="" />
-                </div>
-                <div class="w-[50%] h-[60%]">
-                  <p
-                    class="font-nazanin line-clamp-3 text-[14px] font-[300] text-[#FFFFFF]"
-                  >
-                    اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن
-                    بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر،
-                    اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به
-                    مشتریان است.
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col w-[15%] gap-[10px] mr-[40px] ml-[80px]">
-                <a
-                  href="#"
-                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
-                  >دسترسی آسان</a
-                >
-                <a
-                  href="#"
-                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
-                >
-                  سوالات متداول</a
-                >
-                <a
-                  href="#"
-                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
-                >
-                  تماس با ما</a
-                >
-                <a
-                  href="#"
-                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
-                >
-                  درباره ما</a
-                >
-              </div>
-              <div
-                class="flex flex-col w-[35%] gap-[12px] align-middle my-auto"
-              >
-                <p class="font-nazanin text-[16px] font-[600] text-[#FFFFFF]">
-                  خبرنامه
-                </p>
-                <div
-                  class="join flex justify-between gap-[5px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
-                >
-                  <div class="w-[80%]">
-                    <label
-                      class="input border-0 validator join-item bg-[#343434]"
-                    >
-                      <input
-                        class="font-nazanin text-[14px] font-[600] text-[#676767] bg-[#343434]"
-                        type="email"
-                        placeholder="ایمیل خود را وارد کنید"
-                        required
-                      />
-                    </label>
-                    <div class="validator-hint hidden">
-                      Enter valid email address
-                    </div>
-                  </div>
-                  <button
-                    class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
-                  >
-                    ارسال
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="line flex justify-center w-[90%] mx-auto gap-1 border-t-2 border-[#575757] pt-[30px] pb-[0px] px-[350px] font-nazanin text-[14px] font-[500] text-[#9A9A9A]"
-            >
-              <img src="./src/images/footer/icon-5.png" alt="" />
-              <p class="">تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!--#endregion footer-desktop -->
-
-      <!--#endregion footer-->
-
       <!--#region Mobile-Menu-Swiper -->
       <!-- price -->
       <div
@@ -2076,6 +1821,261 @@
         </div>
       </div>
       <!--#endregion Mobile-Menu-Swiper -->
+
+      <!--#region footer-->
+
+      <!--#region footer-mobile -->
+      <footer
+        class="mobile:flex mobile:flex-col mobile:w-full mobile:h-fit mobile:bg-[#343434] mobile:relative mobile:bottom-0 mobile:z-300 desktop:hidden"
+      >
+        <div class="collapse collapse-arrow bg-[#343434] align-middle">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            ارتباط با ما
+          </div>
+          <div class="collapse-content text-sm flex flex-col gap-2.5">
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-1.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                0912-21326545
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-2.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                autorent@info.com
+              </p>
+            </div>
+            <div class="flex items-center justify-between px-2px">
+              <img
+                src="./src/images/footer/icon-3.png"
+                class="w-[30px] h-[30px]"
+                alt=""
+              />
+              <p
+                class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB] align-middle"
+              >
+                تهران- خ شادمان
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-[#343434]">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            درباره ما
+          </div>
+          <div class="collapse-content text-sm flex flex-col gap-2.5">
+            <div class="justify-start">
+              <img src="./src/images/footer/icon-4.png" alt="" />
+            </div>
+            <div class="w-[100%] h-[60%]">
+              <p
+                class="font-nazanin line-clamp-4 text-[14px] font-[300] text-[#FFFFFF]"
+              >
+                اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین
+                ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا
+                تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow bg-[#343434]">
+          <input type="radio" name="my-accordion-2" />
+          <div
+            class="collapse-title font-nazanin text-[12px] font-medium text-[#FFFBFB] align-middle"
+          >
+            سوالات متداول؟
+          </div>
+          <div
+            class="collapse-content text-sm flex items-center justify-center"
+          >
+            <div
+              class="join flex justify-between gap-[1px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
+            >
+              <div class="w-[80%]">
+                <label class="input border-0 validator join-item bg-[#343434]">
+                  <input
+                    class="font-nazanin text-[14px] font-[600] text-[#eee3e3] bg-[#343434]"
+                    type="email"
+                    placeholder="ایمیل خود را وارد کنید"
+                    required
+                  />
+                </label>
+                <div class="validator-hint hidden">
+                  Enter valid email address
+                </div>
+              </div>
+              <button
+                class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
+              >
+                ارسال
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--#endregion footer-mobile -->
+
+      <!--#region footer-desktop -->
+      <footer class="mobile:hidden desktop:flex desktop:w-full desktop:h-fit">
+        <div
+          class="footer-center flex flex-col gap-[16px] w-[80%] h-[90%] mx-auto bg-[#343434] top rounded-[10px] pt-[56px] pr-[24px] pb-[56px] pl-[24px]"
+        >
+          <div
+            class="footer-info flex align-middle justify-between mx-auto w-[90%] h-[35%] gap-[160px] pt-[16px] pb-[16px] pr-[20px] pl-[16px] border-gray-600 rounded-[16px] border-[1px]"
+          >
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-1.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                  >ارتباط با ما</span
+                >
+                <p class="font-nazanin font-[300px] text-[16px] text-[#FFFBFB]">
+                  0912-21326545
+                </p>
+              </div>
+            </div>
+            <div
+              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
+            ></div>
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-2.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                  >ایمیل
+                </span>
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
+                  >autorent@info.com</span
+                >
+              </div>
+            </div>
+            <div
+              class="line width: 32.00000000000003; angle: -90 deg; border-width: 1px; border-[1px] border-gray-600"
+            ></div>
+            <div class="info-item flex justify-center mx-auto gap-[20px]">
+              <img src="./src/images/footer/icon-3.png" alt="" />
+              <div class="flex flex-col justify-between gap-[15px]">
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB] mx-auto"
+                >
+                  آدرس</span
+                >
+                <span
+                  class="font-nazanin font-[600px] text-[16px] text-[#FFFBFB]"
+                  >تهران- خ شادمان</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-about mx-auto flex flex-col gap-[30px]">
+            <div
+              class="about mx-auto flex justify-between align-middle w-[90%] h-[72%] px-[50px] gap-[30px]"
+            >
+              <div class="flex flex-col w-[50%] gap-[24px] pr-[30px]">
+                <div class="justify-start">
+                  <img src="./src/images/footer/icon-4.png" alt="" />
+                </div>
+                <div class="w-[50%] h-[60%]">
+                  <p
+                    class="font-nazanin line-clamp-3 text-[14px] font-[300] text-[#FFFFFF]"
+                  >
+                    اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن
+                    بزرگترین ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر،
+                    اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت‌رسانی به
+                    مشتریان است.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col w-[15%] gap-[10px] mr-[40px] ml-[80px]">
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                  >دسترسی آسان</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  سوالات متداول</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  تماس با ما</a
+                >
+                <a
+                  href="#"
+                  class="h-[25%] font-nazanin text-[14px] font-[500] text-[#FFFFFF]"
+                >
+                  درباره ما</a
+                >
+              </div>
+              <div
+                class="flex flex-col w-[35%] gap-[12px] align-middle my-auto"
+              >
+                <p class="font-nazanin text-[16px] font-[600] text-[#FFFFFF]">
+                  خبرنامه
+                </p>
+                <div
+                  class="join flex justify-between gap-[5px] border-2 rounded-md border-[#676767] px-[2px] py-[2px]"
+                >
+                  <div class="w-[80%]">
+                    <label
+                      class="input border-0 validator join-item bg-[#343434]"
+                    >
+                      <input
+                        class="font-nazanin text-[14px] font-[600] text-[#676767] bg-[#343434]"
+                        type="email"
+                        placeholder="ایمیل خود را وارد کنید"
+                        required
+                      />
+                    </label>
+                    <div class="validator-hint hidden">
+                      Enter valid email address
+                    </div>
+                  </div>
+                  <button
+                    class="btn btn-neutral join-item w-[20%] rounded-md font-nazanin text-[14px] font-[600] text-[#212121] bg-[#FDB713]"
+                  >
+                    ارسال
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="line flex justify-center w-[90%] mx-auto gap-1 border-t-2 border-[#575757] pt-[30px] pb-[0px] px-[350px] font-nazanin text-[14px] font-[500] text-[#9A9A9A]"
+            >
+              <img src="./src/images/footer/icon-5.png" alt="" />
+              <p class="">تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--#endregion footer-desktop -->
+
+      <!--#endregion footer-->
     </div>
     <!--end project-->
     <script src="./src/swiper/swiper-bundle.min.js"></script>
